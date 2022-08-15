@@ -175,3 +175,4 @@ Temporary Items
 
 #yaml
 /src/main/resources/application.yml
+/build/resources/main/application.yml

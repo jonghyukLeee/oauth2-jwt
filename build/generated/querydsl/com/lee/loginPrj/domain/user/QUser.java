@@ -29,8 +29,6 @@ public class QUser extends EntityPathBase<User> {
 
     public final StringPath name = createString("name");
 
-    public final StringPath refreshToken = createString("refreshToken");
-
     public final EnumPath<Role> role = createEnum("role", Role.class);
 
     public QUser(String variable) {

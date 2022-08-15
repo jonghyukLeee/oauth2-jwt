@@ -31,8 +31,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation"com.querydsl:querydsl-jpa:${queryDslVersion}"
-	implementation 'org.springframework.data:spring-data-redis:2.7.2'
 	annotationProcessor"com.querydsl:querydsl-apt:${queryDslVersion}"
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis:2.7.2'
 	implementation 'io.jsonwebtoken:jjwt:0.9.1'
 	annotationProcessor "org.springframework.boot:spring-boot-configuration-processor"
 	compileOnly 'org.projectlombok:lombok'
